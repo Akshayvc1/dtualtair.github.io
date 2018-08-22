@@ -1,0 +1,79 @@
+
+
+#altair{
+    color:#f49835;
+
+}
+
+#dtu{
+    color:#373a3f;
+}
+
+html,body{
+    height:100%;
+
+}
+
+
+.home{
+    background:url("home.jpg");
+    background-size:cover;
+    background-position: center center;
+    position:relative;
+    background-attachment:fixed;
+    top:0;
+    bottom:0;
+    height:100vh;
+
+
+}
+
+.about{
+    background:url("about.jpg");
+    background-size:cover;
+    background-position: center bottom;
+    position:relative;
+    background-attachment:fixed;
+    top:0;
+    bottom:0;
+    height:100vh;
+
+
+}
+
+.project{
+    background:url("project.jpg");
+    background-size:cover;
+    background-position: center center;
+    position:relative;
+    background-attachment:fixed;
+    top:0;
+    bottom:0;
+    height:100vh;
+
+
+}
+
+.contact{
+    background:url("contact.jpg");
+    background-size:cover;
+    background-position: center center;
+    position:relative;
+    background-attachment:fixed;
+    top:0;
+    bottom:0;
+    height:100vh;
+
+
+}
+
+
+
+.test{
+    background-color:white;
+    height:20vh;
+
+
+
+}
+

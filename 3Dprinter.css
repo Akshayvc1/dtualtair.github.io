@@ -1,0 +1,67 @@
+html,body{
+    height:100%;
+
+}
+
+
+.content{
+    font-family:Raleway;
+    font-size:20px;
+}
+
+.container{
+    margin-top:5%;
+
+
+}
+
+
+
+.a{
+    color:#373a3f;
+
+}
+
+.b{
+    color:#f49835;
+
+}
+
+h1{
+    text-align:center;
+    font-size:5em;
+    font-family:Arvo;
+
+
+
+}
+
+#hr1{
+    width:400px;
+    border:1px solid gray;
+
+}
+
+
+
+.d{
+    border:1px solid orange;
+}
+
+#ul-ul{
+    margin-top:2%;
+    margin-bottom:4%;
+
+
+}
+
+#hr2{
+    margin-top:3%;
+    margin-bottom:10%;
+
+}
+
+#heading{
+    margin-top: 5%;
+    
+}

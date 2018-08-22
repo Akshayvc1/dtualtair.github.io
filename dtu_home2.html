@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="animated fadeIn">
+<head>
+    <title>DTU Altair</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet"  type="text/css" href="dtu_home2.css">
+<link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arvo|Raleway" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+        $(document).ready(function(){
+
+          $("a").on('click', function(event) {
+
+
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+
+              var hash = this.hash;
+
+
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 750, function(){
+
+
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+</script>
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top my_navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#wel"><span id="dtu">DTU</span> <span id="altair">ALTAIR</span></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#proj">Projects</a></li>
+                    <li><a href="#spon">Sponsors</a></li>
+                    <li><a href="#cont">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+     </nav>
+
+
+
+<div class="video">
+    <video autoplay loop muted id="dtu_video">
+        <source src="dtu_video.webm" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+    
+<div class="home_class" id="home">
+    <div class="container">
+        <h1 id="heading">Who Are We?</h1>
+        <hr id="anim_hr" data-aos="zoom-out" data-aos-duration="1000">
+        <p id="home_text">We are a team of enthusiasts with passion for robotics. Based in Delhi Technological University(formerly DCE),  we develop all kinds of aerial and ground systems with the core mission to  develop smart technology. With national and international titles, we are among India's finest robotics team.</p>
+        
+        <div class="departments">
+            <h1 id="depo">Departments</h1>
+            <div class="row" id="home_depo">
+                <div class="col-lg-4">
+                    <i class="fas fa-cogs logos"></i>
+                    <p class="dp_des">Mechanical</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-lightbulb logos"></i>
+                    <p class="dp_des">Electronics</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-address-card logos"></i>
+                    <p class="dp_des">Corporate and Logistics</p>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="proj">
+                <h1 id="pro_heading">Projects</h1>
+                <div class="row" id="pro_row1">
+                <div class="col-lg-4">
+                    <a href="3Dprinter.html"><img src="3dprinter.jpeg" class="enlarge" id="hello"></a>
+                    <p class="pro_desc" id="tar">3D Printer</p>
+                </div>
+                <div class="col-lg-4">
+                    <a href="sdc.html"><img src="sdc.png" class="enlarge" id="hello2"></a>
+                    <p class="pro_desc" id="tar2">Student Design Challenge</p>
+                </div>
+                <div class="col-lg-4">
+                    <a href="rr.html"><img src="img3.jpg" class="enlarge" id="hello3"></a>
+                    <p class="pro_desc" id="tar3">Robo-Rally</p>
+                </div>
+            </div>
+
+            <div class="row" id="pro_row2">
+                <div class="col-lg-4">
+                    <a href="line.html"><img src="img4.jpg" class="enlarge" id="hello4"></a>
+                    <p class="pro_desc" id="tar4">Line Following Robot</p>
+                </div>
+                <div class="col-lg-4">
+                    <a href="dji.html"><img src="quad.jpg" class="enlarge" id="hello5"></a>
+                    <p class="pro_desc" id="tar5">DJI F-450</p>
+                </div>
+                <div class="col-lg-4">
+                    <a href="rwr.html"><img src="img8.jpg" class="enlarge" id="hello6"></a>
+                    <p class="pro_desc" id="tar6">RoboWar Robot</p>
+                </div>
+            </div>
+
+            <div class="row" id="pro_row3">
+
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-4">
+                    <a href="log.html"><img src="logbot.jpg" class="enlarge" id="hello7"></a>
+                    <p class="pro_desc" id="tar7">Logistics Bot</p>
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+            </div>
+            
+        
+        </div>
+        
+        <div class="sponsors" id="spon">
+            <h1 id="spon_heading">Our Sponsors</h1>
+            <div class="row" id="spon_row">
+                <div class="col-lg-4"><a href="http://www.oil-india.com" target="_blank"><img src="oil.png" class="enlarge"></a></div>
+                <div class="col-lg-4"><a href="https://www.sail.co.in/" target="_blank"><img src="sail.png" class="enlarge"></div>
+                <div class="col-lg-4"><a href="https://www.wfs.aero/kwlogos/bwfs-india/" target="_blank"><img src="bwfs.jpg" class="enlarge"></a></div>
+                
+            </div>
+        </div>
+        
+            
+        <div class="contact" id="cont">
+            <h1 id="cont_heading">Contact Us</h1>
+            
+            <h3 class="cont_heading2">Email</h3>
+            <p class="cont_text">dtualtair@gmail.com</p>
+            <h3 class="cont_heading2">Phone</h3>
+            <p class="cont_text">+1 571-338-1933 (Whatsapp)</p>
+            <h3 class="cont_heading2">Address</h3>
+            <p class="cont_text">Delhi Technological University, Shahbad Daulatpur, Main Bawana Road, Delhi, 110042</p>            
+        
+        </div>
+        
+        
+        
+    </div>
+        
+    
+    
+</div>
+
+<div class="space">
+    
+</div>
+    
+<div class="footer">
+    <div class="footer_content">
+        <p id="foot_text1">Support us on social media!</p>
+        <a href="https://www.facebook.com/dtualtair/" id="link1" target="_blank"><img src="facebook.png" class="logo4 enlarge" id="facebook"></a>
+        <a href="https://www.instagram.com/dtu_altair/" id="link2" target="_blank"><img src="instagram.png" class="logo4 enlarge" id="instagram"></a>
+    </div>
+    <div class="copyright">
+        <p id="foot_text2">Copyright &copy; 2018 DTU Altair</p>
+    </div>
+    
+</div>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--scripts-->
+<script type="text/javascript" src="navbar-collapse.js"></script>
+     <script type="text/javascript">
+         $("nav.navbar-fixed-top").autoHidingNavbar();
+    </script>
+<script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
+    
+</body>
+</html>
+    
+    
+
+
+    

@@ -1,0 +1,320 @@
+#dtu{
+    color: white;
+    font-size: 27px;
+    
+}
+
+#altair{
+    color: orange;
+    font-size: 27px;
+}
+
+#dtu_video{
+    right:0;
+    bottom:0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    
+}
+
+.my_navbar{
+    padding-bottom: 1.5%;
+    padding-top: 1%;
+    font-size: 15px;
+    
+}
+
+.home_class{
+    background-color:#c4c3c2;
+    height: auto;
+    
+    
+}
+
+#heading{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arvo;
+    font-size: 60px;
+
+}
+
+#home_text{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Raleway;
+    font-size:20px;
+    
+    
+}
+
+#logo{
+    width:400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3%;
+    
+}
+
+#home_hr{
+    border:2px solid orange;
+    margin-top: 5%;
+}
+
+.logos{
+
+    font-size: 200px;
+}
+
+#home_depo{
+    text-align: center;
+    margin-top: 8%;
+    
+}
+
+#depo{
+    font-family: Arvo;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.departments{
+    background-color: #898988;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+    border-radius: 8px;
+    border: 2px solid orange;
+    
+}
+.dp_des{
+    font-family: Raleway;
+    font-size: 17px;
+    margin-top:10%;
+}
+
+#pro_row1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#pro_row2{
+    text-align: center;
+    margin-top:5%;
+}
+
+#pro_row3{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.enlarge{
+
+    transition: transform .5s;
+    width:250px;
+    height:250px;
+
+}
+
+.enlarge:hover{
+    -ms-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15);
+    opacity:1;
+}
+
+.projects img{
+    height: 250px;
+    width:250px;
+    
+}
+
+.pro_desc{
+    margin-top:7%;
+    font-size:17px;
+    font-family:Raleway;
+
+}
+
+.pro_heading{
+    margin-top: 7%;
+    font-family: Arvo;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#bwfs{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+    margin-top: 5%;
+}
+
+.logo2{
+    font-size:100px;
+
+
+}
+
+#spon_heading{
+    
+    text-align: center;
+    margin-top: 2%;
+    font-family: Arvo;
+    font-size: 40px;
+}
+
+#spon_row{
+    
+    text-align: center;
+    margin-top: 7%;
+}
+
+#facebook{
+    transition: ease 1s;
+    margin-right:15%;
+    margin-left: 35%;
+
+}
+
+#instagram{
+    transition: ease 0.75s;
+
+}
+
+#link2{
+    color:black;
+
+}
+
+
+
+#link1{
+    color:#254477;
+
+}
+
+#con_heading{
+    font-family: Arvo;
+    font-size: 40px;
+    margin-top: 10%;
+    
+}
+
+#contact_row{
+    text-align: center;
+    margin-top:%;
+    
+}
+
+.sponsors{
+    margin-top: 15%;
+    padding-bottom: 5%;
+    border-radius: 8px;
+    border: 2px solid orange;
+    
+}
+
+#pro_heading{
+    font-family: Arvo;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+#spon_row{
+    text-align: center;
+    
+}
+
+.sponsors{
+    padding-top: 1%;
+    background-color: #898988;
+    padding-bottom: 5%;
+    
+}
+
+#logo3{
+    
+    height: 300px;
+    width: 300px;
+}
+
+.contact{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-top:18%;
+    background-color: #adadad;
+    
+}
+
+#cont_heading{
+    font-size: 40px;
+    font-family: Arvo;
+    
+}
+
+.cont_heading2{
+    font-size: 25px;
+    font-family: Arvo;
+    
+}
+
+.cont_text{
+    font-size: 17px;
+    font-family: Raleway;
+}
+
+.logo4{
+    width: 100px;
+    height: 100px;
+    
+}
+
+#foot_text1{
+    font-family: Raleway;
+    font-size:15px;
+    text-align: center;
+    
+}
+
+.footer_content{
+    background-color: #ffac63;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    
+}
+
+#foot_text2{
+    font-family: Raleway;
+    font-size: 13px;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #ed760e;
+    
+}
+
+.space{
+    background-color:#c4c3c2;
+    height: 10vh;
+}
+
+#anim_hr{
+    border: 3px solid orange;
+}
